@@ -7,20 +7,20 @@ REALIZAT DE: SAND ANDREEA si TIVADAR SIMONA
 GRUPA 30223
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* Introducere 
+## About
 
 
 Proiectul nostru reprezinta un sistem bancar si sustine activitati pentru 3 tipuri de utilizatori
-Client
-Angajat
-Administrator
-in functie de log-in ul ales
+/Our project represents a bank system and supports activites for 3 types of users
+Client/Client
+Angajat/Employee
+Administrator/Administrator
 
 ----------------------------------------------
-* Cerinte / Recommended modules
+## Cerinte / Recommended modules
 
 Pentru accesare si utilizarea optima a proiectului nostru este necesar a avea instalat local
-in calculator
+in calculator / The installation and running of out project needs you to have the following installed locally on your computer
 
 	MySQL Workspace - cu Server local
 	IntelliJ IDEA Community
@@ -28,12 +28,12 @@ in calculator
 
 ---------------------------------------------
 
-* Conectare baza de date - Java
+* Conectare baza de date - Java / How to connect the MySQL DB to your Java project
 
-Pentru conectarea bazei de date cu IntelliJ este necesar fisierul 
+Pentru conectarea bazei de date cu IntelliJ este necesar fisierul / The following .jar file is needed 
 mysql-connector-java-8.0.22.jar , adaugat ca fisier extern in proiectu java 
 
-Mai mult decat atat, trebuie realizata conectiunea astfel:
+Mai mult decat atat, trebuie realizata conectiunea astfel/ The connection is done using the followng line
 
 Connection connection = (Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/Banca",
                             "root", "password");
@@ -41,11 +41,13 @@ Connection connection = (Connection) DriverManager.getConnection("jdbc:mysql://l
 
 ---------------------------------------------
 
-* Instructiuni de utilizare
+* Instructiuni de utilizare / How to use it
 
-Odata cu rularea programului din IntelliJ, fereastra de start debuteaza cu LOG IN
+Odata cu rularea programului din IntelliJ, fereastra de start debuteaza cu LOG IN / Application start with LOG IN
 Astfel, userul trebuie sa se logheze cu un username si o parola valida
 A se observa in baza de data, tabel utilizator....numele si parolele aferente fiecarui tip de utilizator
+![image](https://user-images.githubusercontent.com/69772634/205264528-4de7335f-afdb-48de-9c38-0070b80fb8e2.png)
+
 
 In functie de utilizatorul logat, meniul de navigare este diferit
 Pentru selectarea unei optiuni din meniu, se foloseste JComboBox-ul, 
