@@ -5,7 +5,7 @@ SISTEM BANCAR
 REALIZAT DE: SAND ANDREEA si TIVADAR SIMONA
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 GRUPA 30223
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 ## About
 
@@ -41,7 +41,7 @@ Connection connection = (Connection) DriverManager.getConnection("jdbc:mysql://l
 
 ---------------------------------------------
 
-* Instructiuni de utilizare / How to use it
+## Instructiuni de utilizare / How to use it
 
 Odata cu rularea programului din IntelliJ, fereastra de start debuteaza cu LOG IN / Application start with LOG IN
 Astfel, userul trebuie sa se logheze cu un username si o parola valida
@@ -66,6 +66,6 @@ Aplicatia debuteza din nou cu aceeasi fereastra de start/log-in
 
 
 SFARSIT
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 
